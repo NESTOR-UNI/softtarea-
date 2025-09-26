@@ -8,6 +8,8 @@ class ApplicationController < ActionController::Base
 
   # algo para el 2do ejercicio 
   def mensaje_nuevo
-    render html: "mondongo dijo goku "
+    render html: "mondongo dijo goku3"
+   # render html : "mondongo tercero"
+   # render html : "hola mundo"
   end
 end
